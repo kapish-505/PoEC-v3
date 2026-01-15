@@ -1,0 +1,19 @@
+fastapi>=0.109.0
+uvicorn>=0.27.0
+pydantic>=2.5.0
+pandas
+networkx
+python-multipart
+web3
+httpx
+pytest
+sqlalchemy
+psycopg2-binary
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torch_geometric
+scikit-learn
+numpy
+python-dotenv
+
+ipfshttpclient==0.8.0a2
