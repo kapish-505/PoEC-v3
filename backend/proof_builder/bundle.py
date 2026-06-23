@@ -114,3 +114,4 @@ def _generate_task_id(dataset_hash: str, model_hash: str) -> str:
     """Generate deterministic task ID from dataset and model hashes."""
     combined = f"{dataset_hash}:{model_hash}:{datetime.utcnow().isoformat()}"
     return hash_sha256(combined)[:16]  # 16-char hex ID
+
