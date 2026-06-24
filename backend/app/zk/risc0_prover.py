@@ -272,3 +272,4 @@ def get_prover() -> Risc0Prover:
     if _prover_instance is None:
         _prover_instance = Risc0Prover()
     return _prover_instance
+
