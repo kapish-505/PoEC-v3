@@ -450,3 +450,4 @@ async def stream_bank_transactions(events: int = 10):
         "count": min(len(transactions), events),
         "config_used": "stream_profile.json"
     }
+
