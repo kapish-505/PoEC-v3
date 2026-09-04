@@ -11,4 +11,3 @@ __all__ = [
     'wrap_analysis',
     'DeterministicOnlyMode',
 ]
-

@@ -448,4 +448,3 @@ class MonadFetcher:
 def create_fetcher(rpc_url: Optional[str] = None) -> MonadFetcher:
     """Create a Monad fetcher instance."""
     return MonadFetcher(rpc_url)
-

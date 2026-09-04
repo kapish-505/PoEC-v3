@@ -87,4 +87,3 @@ async def ingest_csv(file: UploadFile) -> Tuple[List[Transaction], str]:
             raise HTTPException(status_code=400, detail=f"Row {_} validation error: {str(e)}")
 
     return transactions, raw_hash
-

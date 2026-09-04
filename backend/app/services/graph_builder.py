@@ -184,4 +184,3 @@ def build_graph(transactions: List[Dict[str, Any]], center_address: str = None) 
     """Convenience function to build graph from transactions."""
     builder = get_graph_builder()
     return builder.build_from_transactions(transactions, center_address)
-

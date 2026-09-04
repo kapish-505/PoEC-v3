@@ -183,4 +183,3 @@ def get_storage_adapter(config: Dict[str, Any] = None) -> StorageAdapter:
     else:
         local_config = adapters.get("local", {})
         return LocalStorageAdapter(storage_path=local_config.get("storage_path", "./proof_bundles"))
-

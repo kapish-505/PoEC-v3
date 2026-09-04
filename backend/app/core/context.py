@@ -38,4 +38,3 @@ class ContextManager:
         return {k: v["name"] for k, v in self._loaded_contexts.items()}
 
 context_manager = ContextManager()
-

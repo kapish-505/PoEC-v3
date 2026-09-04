@@ -87,4 +87,3 @@ def build_time_sliced_graphs(transactions: List[Transaction], window: str = 'M')
         results.append((key, sub_graph))
         
     return results
-

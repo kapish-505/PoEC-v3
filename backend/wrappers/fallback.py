@@ -46,4 +46,3 @@ class DeterministicOnlyMode:
             True if GNN should be skipped
         """
         return skip_gnn
-
